@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, useState } from "react";
+import TextField from "@mui/material/TextField";
+import List from "./Components/List"
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome <code>To</code> Serw !
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sign In
-        </a>
-      </header>
+    <div className="main">
+      <h1>React Search</h1>
+      <div className="search">
+        <TextField
+          id="outlined-basic"
+          variant="outlined"
+          fullWidth
+          label="Search"
+        />
+      </div>
+      <List />
     </div>
   );
 }
