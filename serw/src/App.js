@@ -20,4 +20,23 @@ function App() {
   );
 }
 
-export default App;
+
+
+
+
+
+
+class Map extends Component {
+  componentDidMount() {
+    const map = new window.google.maps.Map(document.getElementById('map'), {
+      center: { lat: 37.7749, lng: -122.4194 },
+      zoom: 8
+    });
+  }
+
+  render() {
+    return <div id="map" style={{ height: '500px' }} />;
+  }
+}
+
+export default Map;
