@@ -1,0 +1,9 @@
+
+ @font-face { font-style : bold; src: url("assets/fonts/NunitoSansSemiBold.ttf"); font-family : "Nunito Sans"; font-weight : 600;  }
+ @font-face { font-style : normal; src: url("assets/fonts/NunitoSansRegular.ttf"); font-family : "Nunito Sans"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/NunitoSansBold.ttf"); font-family : "Nunito Sans"; font-weight : 700;  }
+ @font-face { font-style : bold; src: url("assets/fonts/PoppinsSemiBold.ttf"); font-family : "Poppins"; font-weight : 600;  }
+ @font-face { font-style : bold; src: url("assets/fonts/NunitoSansExtraBold.ttf"); font-family : "Nunito Sans"; font-weight : 800;  }
+ @font-face { font-style : bold; src: url("assets/fonts/PoppinsMedium.ttf"); font-family : "Poppins"; font-weight : 500;  }
+ @font-face { font-style : normal; src: url("assets/fonts/PoppinsRegular.ttf"); font-family : "Poppins"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/NunitoSansLight.ttf"); font-family : "Nunito Sans"; font-weight : 300;  }
